@@ -73,11 +73,6 @@ p {
   flex-grow: 0;
 }
 
-.header-logo:hover,
-.header-logo:focus {
-  color: var(--main-title-color);
-  background-color: var(--root-color);
-}
 span {
   font-weight: 800;
   font-size: 18px;
@@ -86,11 +81,6 @@ span {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--seconbari-text-color);
-}
-span:hover,
-span:focus {
-  color: var(--main-title-color);
-  background-color: var(--root-color);
 }
 
 .header-list {
@@ -198,6 +188,13 @@ span:focus {
 }
 
 /* ---------------Description---------------- */
+
+.description-svg {
+  padding: 24px 100px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+}
+
 .text-container {
   margin-top: 120px;
   margin-bottom: 120px;
@@ -232,6 +229,25 @@ span:focus {
 .team {
 }
 
+.team-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+.team-link:hover {
+  background-color: #404bbf;
+}
+.team-svg {
+  padding: 12px 12px;
+  width: 16px;
+  height: 16px;
+  fill: #fff;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -248,6 +264,17 @@ span:focus {
   display: flex;
   gap: 24px;
 }
+
+.team-list-svg {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.team-item-svg {
+}
+
 .team-working {
   background-color: #f4f4fd;
 }
@@ -296,18 +323,71 @@ span:focus {
   display: flex;
   justify-content: center;
   margin-top: 8px;
-  margin-bottom: 32px;
+  margin-bottom: 8px;
   color: #434455;
+}
+
+/* ---------------Customers---------------- */
+
+.customers {
+  margin-bottom: 120px;
+}
+.customers-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+  color: #2e2f42;
+}
+.customers-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.customers-svg {
+  padding: 16px 32px;
+  border-radius: 4%;
+  border: 1px solid #8e8f99;
+  fill: #8e8f99;
+}
+.customers-svg:hover {
+  fill: #404bbf;
+  border-color: #404bbf;
+}
+
+.customers-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 4%;
+}
+
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 4%;
 }
 
 /* ---------------Fotter---------------- */
 
 .footer {
   background-color: var(--seconbari-text-color);
+  display: flex;
 }
 .footer-container {
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
+  gap: 120px;
 }
 
 .footer-logo {
@@ -319,13 +399,8 @@ span:focus {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.footer-logo:hover,
-.footer-logo:focus {
-  color: #ffffff;
-  background-color: var(--root-color);
-}
 
-.span {
+.footer-logo > span {
   font-weight: 800;
   font-size: 18px;
   line-height: 1, 16;
@@ -333,11 +408,6 @@ span:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
-}
-.span:hover,
-.span:focus {
-  color: #ffffff;
-  background-color: var(--root-color);
 }
 
 .footer-text {
@@ -348,6 +418,52 @@ span:focus {
   width: 264px;
   margin-top: 16px;
   color: #e7e9fc;
+}
+.footer-svg-text {
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 50;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.footer-list-svg {
+  gap: 16px;
+  display: flex;
+}
+.footer-svg-link {
+  width: 208px;
+  height: 80px;
+}
+.footer-content {
+  width: 264px;
+  height: 110px;
+  margin-left: 156px;
+}
+
+.footer-item-svg {
+}
+.footer-link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255, 10%);
+  width: 40;
+}
+
+.footer-link:hover {
+  background-color: #31d0aa;
+}
+
+.footer-svg {
+  padding: 12px 12px;
+  width: 16px;
+  height: 16px;
+  fill: #fff;
 }
 
 /* ---------------PORTFOLIO---------------- */

@@ -17,12 +17,12 @@
     <header class="header">
       <div class="container header-container">
         <nav class="header-navigation">
-          <a href="./index.html" class="header-logo link"
-            >Web<span>Studio</span></a
+          <a href="./index.html" class="header-link-logo link"
+            >Web<span class="header-link-span">Studio</span></a
           >
           <ul class="header-list list">
             <li class="header-item">
-              <a href="#" class="header-link link">Studio</a>
+              <a href="/index.html" class="header-link link active">Studio</a>
             </li>
             <li class="header-item">
               <a href="./portfolio.html" class="header-link link">Portfolio</a>
@@ -33,28 +33,26 @@
           </ul>
         </nav>
         <address class="header-address">
-          <div class="header-inform">
-            <ul class="header-info list">
-              <li>
-                <a
-                  href="mailto:info@devstudio.com"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  class="header-mailto link"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a
-                  href="tel:+110001111111"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  class="header-tel link"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </div>
+          <ul class="header-info list">
+            <li class="header-item-link">
+              <a
+                href="mailto:info@devstudio.com"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="header-address-link link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-item-link">
+              <a
+                href="tel:+110001111111"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="header-address-link link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
         </address>
       </div>
     </header>
@@ -63,7 +61,9 @@
       <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-btn">Order Service</button>
+          <button type="button" data-modal-open class="hero-btn">
+            Order Service
+          </button>
         </div>
       </section>
       <!--/Hero section-->
@@ -392,5 +392,16 @@
       </div>
     </footer>
     <!--/Footer section-->
+    <div class="backdrop" data-modal>
+      <div class="modal">
+          <svg class="modal-svg">
+            <use
+              href="./images/symbol-defs.svg#icon-close-black"
+              data-modal-close
+            ></use>
+          </svg>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

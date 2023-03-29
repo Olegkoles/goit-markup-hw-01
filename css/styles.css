@@ -650,28 +650,59 @@ p {
   left: 50%;
   padding: 24px;
   transform: translate(-50%, -50%);
+  display: inline-block;
 }
 .modal-link {
 }
-.modal-svg {
-  width: 8px;
-  height: 8px;
-  display: block;
-  margin-left: auto;
+
+.modal-btn-close {
   padding: 8px;
   background: #e7e9fc;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  margin-left: auto;
 }
 
-.modal-svg:focus,
-.modal-svg:hover {
+.modal-btn-close:focus,
+.modal-btn-close:hover {
   background-color: #404bbf;
   fill: #e7e9fc;
+}
+
+.modal-svg {
+  width: 8px;
+  height: 8px;
+}
+
+.modal-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-top: 24px;
+  margin-bottom: 16px;
 }
 
 .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+
+.modal-form {
+}
+.form {
+}
+.form-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
 }

@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -92,7 +96,6 @@
                 within the shortest possible time.
               </p>
             </li>
-            <li class="description-item link"></li>
             <li class="description-item link">
               <svg class="description-svg" width="64" height="64">
                 <use href="./images/symbol-defs.svg#icon-diagram-1-1"></use>
@@ -292,8 +295,8 @@
       <!--/Team section-->
       <!--Customers section-->
       <section class="customers">
-        <h2 class="customers-title">Customers</h2>
         <div class="container">
+          <h2 class="customers-title">Customers</h2>
           <ul class="customers-list list">
             <li class="customers-item">
               <a href="" class="customers-link">
@@ -403,11 +406,40 @@
           Leave your contacts and we will call you back
         </h2>
         <form class="modal-form form">
-          <input type="text" class="form-input">
-          <input type="text" class="form-input">
-          <input type="text" class="form-input">
+          <label for="Name" class="form-label">Name</label>
+          <div class="input-container">
+            <input type="text" class="form-input" id="Name" />
+            <svg class="input-svg">
+              <use
+                href="./images/symbol-defs.svg#icon-Frame"
+                width="22"
+                height="24"
+              ></use>
+            </svg>
+          </div>
+          <label for="Phone" class="form-label">Phone</label>
+          <div class="input-container">
+            <input type="number" class="form-input" id="Phone" />
+            <svg class="input-svg">
+              <use
+                href="./images/symbol-defs.svg#icon-phone"
+                width="22"
+                height="24"
+              ></use>
+            </svg>
+          </div>
+          <label for="Email" class="form-label">Email</label>
+          <div class="input-container">
+            <input type="email" class="form-input" id="Email" />
+            <svg class="input-svg">
+              <use
+                href="./images/symbol-defs.svg#icon-email-black"
+                width="22"
+                height="24"
+              ></use>
+            </svg>
+          </div>
         </form>
-        
       </div>
     </div>
     <script src="./js/modal.js"></script>

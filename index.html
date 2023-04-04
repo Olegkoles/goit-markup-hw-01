@@ -395,7 +395,7 @@
       </div>
     </footer>
     <!--/Footer section-->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-btn-close" data-modal-close>
           <svg class="modal-svg">
@@ -408,7 +408,7 @@
         <form class="modal-form form">
           <label for="Name" class="form-label">Name</label>
           <div class="input-container">
-            <input type="text" class="form-input" id="Name" />
+            <input type="text" class="form-input" id="Name" required />
             <svg class="input-svg">
               <use
                 href="./images/symbol-defs.svg#icon-Frame"
@@ -419,7 +419,7 @@
           </div>
           <label for="Phone" class="form-label">Phone</label>
           <div class="input-container">
-            <input type="number" class="form-input" id="Phone" />
+            <input type="number" class="form-input" id="Phone" required />
             <svg class="input-svg">
               <use
                 href="./images/symbol-defs.svg#icon-phone"
@@ -430,7 +430,7 @@
           </div>
           <label for="Email" class="form-label">Email</label>
           <div class="input-container">
-            <input type="email" class="form-input" id="Email" />
+            <input type="email" class="form-input" id="Email" required />
             <svg class="input-svg">
               <use
                 href="./images/symbol-defs.svg#icon-email-black"
@@ -439,6 +439,37 @@
               ></use>
             </svg>
           </div>
+          <div class="texttarea-container">
+            <label class="form-label" for="Comment">Comment</label>
+            <textarea
+              class="form-textarea"
+              name="Comment"
+              id="Comment"
+              cols="30"
+              rows="10"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="checkbox-container">
+            <input
+              type="checkbox"
+              name="Privacy Policy"
+              class="checkbox"
+              id="Privacy Policy"
+            />
+            <label for="Privacy Policy" class="checkbox-text">
+              I accept the terms and conditions of the
+              <span class="Privacy-Policy">Privacy Policy</span>
+              <svg class="checkbox-svg">
+                <use
+                  href="./images/symbol-defs.svg#icon-Vector-check"
+                  width="10"
+                  height="8"
+                ></use>
+              </svg>
+            </label>
+          </div>
+          <button type="submit" class="modal-btn">Send</button>
         </form>
       </div>
     </div>

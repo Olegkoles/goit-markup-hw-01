@@ -29,7 +29,6 @@ p {
 }
 
 .container {
-  max-width: 1158px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
@@ -63,12 +62,13 @@ p {
 /* ---------------Header---------------- */
 
 .header {
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.open-menu-mobi {
+  width: 32px;
+  height: 22px;
 }
 .header-container {
   /* justify-content: space-between; */
@@ -184,11 +184,7 @@ p {
 /* ---------------Hero---------------- */
 .hero {
   background-color: var(--seconbari-text-color);
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(/img/header-bgr.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -203,8 +199,8 @@ p {
 }
 .hero-title {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.2;
+
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   margin: auto;
@@ -257,19 +253,14 @@ p {
   margin: auto 0;
   gap: 24px;
 }
-.description-item {
-  max-width: 264px;
-}
+
 .description-title {
-  font-weight: 500;
-  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
   color: var(--seconbari-text-color);
 }
 .description-subtitle {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -337,7 +328,6 @@ p {
 }
 .team-working {
   padding-top: 120px;
-  padding-bottom: 110px;
   margin-top: 120px;
 }
 
@@ -408,7 +398,6 @@ p {
 }
 .customers-list {
   display: flex;
-  gap: 24px;
   justify-content: center;
 }
 .customers-svg {
@@ -416,8 +405,6 @@ p {
   border-radius: 4%;
   border: 1px solid #8e8f99;
   fill: #8e8f99;
-  width: 168px;
-  height: 88px;
 }
 .customers-svg:hover {
   fill: #404bbf;
@@ -495,13 +482,11 @@ p {
 }
 .footer-svg-link {
   width: 208px;
-  height: 80px;
-  margin-right: 80px;
+  height: 110px;
 }
 .footer-content {
   width: 264px;
   height: 110px;
-  margin-right: 120px;
 }
 
 .footer-item-svg {
@@ -530,9 +515,7 @@ p {
   fill: #fff;
 }
 .footer-input {
-  width: 264px;
   height: 40px;
-  margin-right: 24px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -556,6 +539,7 @@ p {
 .footer-input-form {
   display: flex;
   justify-content: center;
+  gap: 24px;
 }
 
 .footer-btn {

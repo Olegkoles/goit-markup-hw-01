@@ -2,4 +2,79 @@
   .container {
     max-width: 768px;
   }
+  /* ---------------Header---------------- */
+  .header-list {
+    display: flex;
+  }
+  .header-address {
+    display: flex;
+  }
+  /* ---------HERO-------- */
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/img/hero-tablet-bg.jpg);
+  }
+  .hero-title {
+    width: 496px;
+    font-size: 56px;
+    line-height: 1.1;
+  }
+  .hero-btn {
+    margin-top: 40px;
+  }
+  /* --------description-------- */
+  .description-svg {
+    display: none;
+  }
+  .description-title {
+    width: 356px;
+  }
+
+  .description-subtitle {
+    width: 356px;
+  }
+
+  .description-item {
+    width: 356px;
+  }
+  .description-list {
+    gap: 72px 24px;
+  }
+  /* ---------------Team---------------- */
+  .team-working {
+    padding-bottom: 104px;
+  }
+  .team-content {
+    gap: 64px 24px;
+  }
+  /* ---------------Customers---------------- */
+  .customers-svg {
+    width: 168px;
+    height: 88px;
+  }
+  .customers-list {
+    gap: 24px;
+  }
+  /* ---------------Fotter---------------- */
+  .footer-input-form {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .footer-logo {
+    padding-left: 0;
+  }
+  .footer-container {
+    gap: 72px 24px;
+    width: 582px;
+    justify-content: flex-start;
+  }
+  .footer-input-text {
+    text-align: start;
+  }
+  .footer-input {
+    width: 264px;
+  }
 }

@@ -2,7 +2,72 @@
   .container {
     max-width: 1158px;
   }
+  /* ---------------Header---------------- */
+  /* ---------HERO-------- */
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/img/header-bgr.jpg);
+  }
+  .hero-btn {
+    margin-top: 48px;
+  }
+  /* --------description-------- */
+  .description-svg {
+    display: flex;
+  }
+  .description-title {
+    font-weight: 500;
+    font-size: 20px;
+    width: 264px;
+    text-align: start;
+  }
+  .description-subtitle {
+    font-weight: 400;
+    width: 264px;
+    text-align: start;
+  }
+
+  .description-item {
+    width: 264px;
+  }
+
+  .description-list {
+    text-align: center;
+  }
+  /* ---------------Team---------------- */
+  .team {
+    display: flex;
+  }
+  .team-working {
+    padding-bottom: 110px;
+  }
+  .team-content {
+    flex-wrap: nowrap;
+  }
+  /* ---------------Customers---------------- */
   .customers-list {
     flex-wrap: nowrap;
+  }
+  /* ---------------Fotter---------------- */
+  .footer-logo {
+    text-align: center;
+    padding-left: 0;
+  }
+  .footer-container {
+    flex-wrap: nowrap;
+    width: 1158px;
+    gap: 0;
+  }
+  .footer-content {
+    margin-right: 120px;
+  }
+  .footer-svg-link {
+    margin-right: 80px;
+  }
+  .footer-btn {
+
   }
 }

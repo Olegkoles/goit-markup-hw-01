@@ -3,11 +3,28 @@
     max-width: 768px;
   }
   /* ---------------Header---------------- */
+  .header-container {
+    max-width: 796px;
+  }
   .header-list {
     display: flex;
   }
+  .header-navigation {
+    width: auto;
+    margin-right: 120px;
+  }
+  .header-link-logo  {
+    margin-right: 120px;
+  }
   .header-address {
     display: flex;
+    justify-content: end;
+  }
+  .header-info {
+    display: inline;
+  }
+  .open-menu-mobi {
+    display: none;
   }
   /* ---------HERO-------- */
   .hero {
@@ -57,6 +74,7 @@
   }
   .customers-list {
     gap: 24px;
+    width: auto;
   }
   /* ---------------Fotter---------------- */
   .footer-input-form {
@@ -76,5 +94,11 @@
   }
   .footer-input {
     width: 264px;
+  }
+  .modal {
+    min-width: 408px;
+  }
+  .modal-btn {
+    margin-left: 96px;
   }
 }

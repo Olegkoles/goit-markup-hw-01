@@ -21,7 +21,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/img/header-bgr.jpg);
+      url(../img/header-bgr.jpg);
   }
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -31,7 +31,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/img/header-bgr-2x.jpg);
+      url(../img/header-bgr-2x.jpg);
   }
 }
   .hero-btn {

@@ -2,18 +2,21 @@
   .container {
     max-width: 396px;
   }
- 
+
   /* ---------HERO-------- */
   .hero-title {
     width: 320px;
   }
-  
+
   /* ---------------Customers---------------- */
   .customers-list {
     width: 396px;
   }
+  .customers-svg {
+    width: 190px;
+  }
   /* ---------------Fotter---------------- */
-  
+
   .footer-input {
     width: 396px;
   }
@@ -23,5 +26,10 @@
   .modal-btn {
     margin-left: 88px;
   }
-  
+  .mobail-list-svg {
+    gap: 56px;
+  }
+  .mobail-tel-link {
+    font-size: 36px;
+  }
 }

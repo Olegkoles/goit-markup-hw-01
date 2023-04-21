@@ -2,116 +2,20 @@
   .container {
     max-width: 396px;
   }
-  /* ---------------Header---------------- */
-  .header-list {
-    display: none;
-  }
  
-  .header-address {
-    display: none;
-  }
-  .header-navigation {
-    margin-right: 0;
-    justify-content: space-between;
-    width: 100%;
-  }
-  
   /* ---------HERO-------- */
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(/img/hero-mobi-bg.jpg);
-  }
   .hero-title {
     width: 320px;
-    font-size: 36px;
-    line-height: 1.11;
-    text-transform: capitalize;
   }
-  .hero-btn {
-    margin-top: 72px;
-  }
-  /* --------description-------- */
-
-  .description-svg {
-    display: none;
-  }
-
-  .description-title {
-    text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1, 11;
-    width: 396px;
-  }
-
-  .description-subtitle {
-    font-weight: 500;
-    width: 396px;
-  }
-
-  .description-item {
-    width: 396px;
-  }
-
-  .description-list {
-    flex-wrap: wrap;
-    gap: 72px;
-  }
-  /* ---------------Team---------------- */
-  .team {
-    display: none;
-  }
-  .team-working {
-    padding-top: 96px;
-    padding-bottom: 128px;
-  }
-  .team-content {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 72px;
-  }
+  
   /* ---------------Customers---------------- */
   .customers-list {
-    flex-wrap: wrap;
-    gap: 72px 16px;
     width: 396px;
   }
-  .customers-svg {
-    width: 190px;
-    height: 88px;
-  }
   /* ---------------Fotter---------------- */
-  .footer-container {
-    flex-wrap: wrap;
-  }
-  .footer-logo {
-    padding-left: 80px;
-  }
-  .footer-input-form {
-    flex-wrap: wrap;
-    gap: 16px;
-  }
-  .footer-svg-link {
-    margin-right: 0;
-  }
-  .footer-content {
-    margin-right: 0;
-  }
-  .footer-container {
-    justify-content: center;
-    gap: 74px;
-  }
-  .footer-svg-text {
-    text-align: center;
-  }
-  .footer-input-text {
-    text-align: center;
-  }
+  
   .footer-input {
-    width: 398px;
+    width: 396px;
   }
   .modal {
     min-width: 392px;
